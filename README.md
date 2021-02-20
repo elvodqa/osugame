@@ -34,3 +34,4 @@ nohup node api.js &
 ## License Notes
 
 Some media files are copyrighted by [ppy](https://github.com/ppy/) and other people. Check their respective license before you use them.
+Official Github release [Github](https://github.com/111116/webosu)
