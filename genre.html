@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>戳泡泡</title>
+        <title>osu!</title>
         <link rel="stylesheet" href="style/picnic.min.css">
         <link rel="stylesheet" type="text/css" href="style/main.css">
         <link rel="stylesheet" type="text/css" href="style/font.css">
@@ -35,61 +35,58 @@
 
         <nav id="main-nav">
             <div class="nav-link">
-                <a href="index.html" class="brand">Osaka Salmon University!</a>
-                <a href="new.html" class="pseudo button">最新</a>
-                <a href="hot.html" class="pseudo button">热门</a>
-                <a href="genre.html" class="pseudo button active">分类</a>
+                <a href="index.html" class="brand">osu!</a>
+                <a href="new.html" class="pseudo button">up to date</a>
+                <a href="hot.html" class="pseudo button">Popular</a>
+                <a href="genre.html" class="pseudo button active">classification</a>
             </div>
             <div class="nav-search">
                 <form action="search.html">
-                    <input type="text" name="q" placeholder="谱面关键词或sid"/>
+                    <input type="text" name="q" placeholder="Chart keyword or sid"/>
                     <input type="image" class="search-button" src="research.svg">
                 </form>
             </div>
             <div class="nav-tool">
-                <a href="local.html" class="pseudo button">收藏夹</a>
-                <a href="faq.html" class="pseudo button">常见问题</a>
-                <a href="settings.html" class="pseudo button">设置</a>
-                <a onclick="document.documentElement.requestFullscreen();" class="pseudo button">进入全屏</a>
+                <a href="local.html" class="pseudo button">Favorites</a>
+                <a href="faq.html" class="pseudo button">common problem</a>
+                <a href="settings.html" class="pseudo button">Set up</a>
+                <a onclick="document.documentElement.requestFullscreen();" class="pseudo button">Enter full screen</a>
             </div>
         </nav>
 
         <div class="main-page" id="main-page">
             <div class="main-content">
                 <div class="sort-nav">
-                    <div class="title">风格</div>
-                    <div class="selitem" genre="1">全部</div>
-                    <div class="selitem" genre="4">游戏</div>
-                    <div class="selitem" genre="8">动漫</div>
-                    <div class="selitem" genre="16">摇滚</div>
-                    <div class="selitem" genre="32">流行</div>
-                    <div class="selitem" genre="128">新奇</div>
-                    <div class="selitem" genre="1024">电子</div>
-                    <div class="selitem" genre="2+64+256">其它</div>
+                    <div class="title">style</div>
+                    <div class="selitem" genre="1">All</div>
+                    <div class="selitem" genre="4">game</div>
+                    <div class="selitem" genre="8">Anime</div>
+                    <div class="selitem" genre="16">Rock</div>
+                    <div class="selitem" genre="32">popular</div>
+                    <div class="selitem" genre="128">novel</div>
+                    <div class="selitem" genre="1024">electronic</div>
+                    <div class="selitem" genre="2+64+256">other</div>
                 </div>
                 <div class="sort-nav">
-                    <div class="title">语言</div>
-                    <div class="selitem" lang="1">全部</div>
-                    <div class="selitem" lang="16">汉语</div>
-                    <div class="selitem" lang="4">英语</div>
-                    <div class="selitem" lang="8">日语</div>
-                    <div class="selitem" lang="32">器乐</div>
-                    <div class="selitem" lang="64">韩语</div>
-                    <div class="selitem" lang="128">法语</div>
-                    <div class="selitem" lang="256">德语</div>
-                    <div class="selitem" lang="2048">意大利语</div>
-                    <div class="selitem" lang="512">瑞典语</div>
-                    <div class="selitem" lang="2+1024">其它</div>
+                    <div class="title">Language</div>
+                    <div class="selitem" lang="1">All</div>
+                    <div class="selitem" lang="16">Chinese</div>
+                    <div class="selitem" lang="4">English</div>
+                    <div class="selitem" lang="8">Japanese</div>
+                    <div class="selitem" lang="32">instrumental music</div>
+                    <div class="selitem" lang="64">Korean</div>
+                    <div class="selitem" lang="128">French</div>
+                    <div class="selitem" lang="256">German</div>
+                    <div class="selitem" lang="2048">Italian</div>
+                    <div class="selitem" lang="512">Swedish</div>
+                    <div class="selitem" lang="2+1024">other</div>
                 </div>
                 <hr>
 
                 <div class="beatmap-list" id="beatmap-list">
                     <!-- to be filled in script -->
                 </div>
-                <div class="button" style="width:100%; margin-bottom: 10px;" id="btnmore">加载更多</div>
-                <div class="text">推荐使用最新版本 Firefox 或 Chrome.</div>
-                <div class="text">内测版v1.4.3. <a href="https://github.com/111116/osu">Github</a></div>
-                <div class="text">由<a href="https://osu.sayobot.cn/">Sayobot</a>提供谱面</div>
+                
             </div>
             <!-- <div class="side-panel">
                 to be activated in script
